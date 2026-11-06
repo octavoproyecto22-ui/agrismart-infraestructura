@@ -1,0 +1,16 @@
+# Variables de entorno
+.env
+
+# Entorno virtual Python
+.venv/
+
+# Archivos temporales Python
+__pycache__/
+*.pyc
+
+# Llaves privadas
+*.key
+
+# Datos de Mosquitto
+mosquitto/data/*
+!mosquitto/data/.gitkeep
